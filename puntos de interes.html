@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Lugares de Interés - Tres Valles</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial;
+
+    /* FONDO DE PANTALLA */
+    background-image: url("web background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* ENCABEZADO NEGRO */
+.header{
+    background: rgba(0,0,0,0.9);
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:25px;
+    font-weight:bold;
+}
+
+/* CONTENEDOR (SIN FONDO) */
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    padding:20px;
+}
+
+/* RECUADROS (AQUÍ VA EL NEGRO TRANSPARENTE) */
+.card{
+    width:280px;
+    background: rgba(0,0,0,0.6); /* SOLO AQUÍ */
+    color:white;
+    margin:15px;
+    padding:15px;
+    border-radius:10px;
+    text-align:justify;
+}
+
+/* TITULOS */
+h2{
+    text-align:center;
+}
+
+/* IMÁGENES */
+img{
+    width:100%;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+/* VIDEO */
+video{
+    width:100%;
+    margin-top:10px;
+}
+
+/* BOTÓN */
+button{
+    margin-top:10px;
+    padding:8px;
+    border:none;
+    background:#00bcd4;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+    LUGARES DE INTERÉS DE TRES VALLES
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Municipio Tres Valles&nbsp;</h2>
+        <p>En el municipio Tres Valles del estado de Veracruz se encuentra el palacio o mas conocido como el ayuntamiento, se encarga de administrar el municipio: trámites como actas de nacimientos, CURP, pago predial, permisos, servicios público, obras de seguridad y protecciosn civil para las y los tresvallenses y se encuentra ubicado en <u>AV. Benito Juárez S/N, Centro Tres Valle, Veracruz,</u> Justo frente al<u> parque Miguel Hidalgo</u></p>
+        <img src= "ayuntamiento.jpeg" >
+    </div>
+
+    <div class="card">
+        <h2>Parque Miguel Hidalgo</h2>
+        <p>Es un punto de reunión familiar donde se realizan diversos eventos culturales o de entretenimiento publico donde regularmente van a distraerse.</p>
+        <img src="PARQUE.jpeg" height="225">
+    </div>
+
+    <div class="card">
+        <h2>Parroquia Cristo Rey</h2>
+        <p>La iglesia es importante para las celebraciones religiosas, misas de XV, boda, bautizos, confirmación, comunion, etc...</p>
+        <img src="IGLESIA.jpeg">
+    </div>
+
+    <div class="card">
+        <h2>Unidad Deportiva Salvador Neme</h2>
+        <p>Espacio donde se practican deportes y actividades recreativas como partidos de futbol, voleibol, basquetbol, entrenamientos para partido, torneos, las finales, tambien cuenta con un espacio para caminar, correr, trotar y el area de juegos infantiles.</p>
+        <img src="CHAVO NEME.jpeg">
+  </div>
+
+    <div class="card">
+        <h2>Complejo Deportivo</h2>
+        <p>una nueva instalacion hecha por la exalcaldesa Zulema Aguilar García modernas para eventos deportivos, partidos de futbol, voleibol, basquetbol y también cuenta con el area de juegos infantiles y para el running.</p>
+        <img src="unidad deportiva .jpeg">
+    </div>
+
+    <div class="card">
+        <h2>Casa de Cultura</h2>
+        <p>Lugar donde se promueven actividades artísticas como la danza, el ballet, la pintura, cuenta con taller de manualidades, de pintura, de tocar instrumentos y mucho mas ya que tambien hay un domo para diveros usos multiples .</p>
+        <img src= "casa cultura.jpeg">
+    </div>
+
+    <div class="card">
+        <h2>Gimnasio</h2>
+        <p>Espacio para el ejercicio el gym evolution ya cuenta con aparatos de primera, limpios, con las membresias de visita, la semana y el mes tambien tiene un espacio seguro y vista desde el balcon.</p>
+        <img src="gym.jpeg">
+    </div>
+
+    <div class="card">
+        <h2>Parque Recreativo</h2>
+        <p>Otro parque donde las familias pueden convivir, el parque las iguana es otro parque que realizo la ex alcaldeza Zulema Aguilar García antes llamado parque "el aguila" donde igual forma tiene asientos, buena vista y juegos para entretener a los niños.</p>
+        <img src="parque iguana.jpeg" height="240">
+    </div>
+
+	 <div class="card">
+        <h2> IMSS </h2>
+        <p>Un seguro donde las familias pueden venir a consultas medicas ya que cuenta con servicios básicos, medicamentos, citas de urgencias y es un seguro fundamental para la salud de las y los ciudadanos de Tres Valles.</p>
+        
+		 <img src="imms.jpeg" height="240">
+    </div>
+	
+    <div class="card">
+        <h2>Video</h2>
+        <div>
+          <p>Si quedo alguna duda puedes observa este video sobre Tres Valles:</p>
+        </div>
+        <div>
+          <video controls>
+            <source src="video terminado de tres valles.mp4" type="video/mp4">
+            </video>
+        </div>
+ 
+
+<div style="text-align:center; margin-bottom:20px;">
+    <button onclick="history.back()">Regresar</button>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>PRESENTACIÓN</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+
+    background-image: url("descarga (1).jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* CAPA OSCURA */
+.overlay {
+    background-color: rgba(0,0,0,0.7);
+    min-height: 100vh;
+}
+
+/* ENCABEZADO */
+header {
+    background: rgba(0,0,0,0.8);
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+	header h1 {
+    margin: 0;
+}
+
+/* BOTONES */
+nav {
+    margin-top: 10px;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background: #00bcd4;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background: #0097a7;
+}
+
+/* CONTENIDO */
+.contenido {
+    padding: 30px;
+    text-align: center;
+}
+
+/* TARJETAS */
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+/* IMÁGENES */
+img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* VIDEO */
+video, iframe {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+</style>
+
+</head>
+
+<body>
+
+
+
+<header>
+    <h1><em>MI PÁGINA WEB</em></h1>
+    <nav>
+        <button onclick="location.href='#inicio'">Inicio</button>
+        <button onclick="location.href='#lugares'">Lugares</button>
+        <button onclick="location.href='#economia'">Economía</button>
+        <button onclick="location.href='#empresa'">Empresa</button>
+		
+    </nav>
+</header>
+
+<div class="contenido">
+
+    <!-- INICIO -->
+    <div class="card" id="inicio">
+		
+        <h2>Bienvenidos</h2>
+        <p>En esta página podrás encontrar información sobre lugares de interés, economía y contenido multimedia de Tres Valles Veracruz.</p>
+    </div>
+
+	
+	
+	
+    <!-- LUGARES -->
+    <div class="card" id="lugares">
+		
+        <h2>Lugares de interés</h2>
+        <p>Aquí en el enlace puedes obetener mas información sobre los lugares importantes de Tres Valles 
+		Ver..</p>
+        <h2>
+    <a href=   "../PAGINA 3/puntos de interes.html" class="boton-tresvalles">
+	  <li> Lugares de interes </li>
+    </a>
+ </h2>
+   
+    </div>
+
+	
+	
+	
+	
+	
+	
+    <!-- ECONOMÍA -->
+    <div class="card" id="economia">
+		
+      <h2>Economía</h2>
+        <p>La economía de Tres Valles funciona gracias a diversos lugares, para  mas información.</p>
+       <h2>
+    <a href=  "../PAGINA 4/la economia.html">
+	  <li> Economía</li>
+    </a>
+ </h2>
+
+    </div>
+
+	
+	
+	
+	
+	
+	
+    <!-- VIDEO -->
+    <div class="card" id="empresa">
+		
+        <h2>EMPRESA&nbsp;</h2>
+      <p>La empresa en la cual le estoy trabajando es esta, puede consultar aqui la información.</p>
+        <h2>
+    <a href=  "../PAGINA 2/empresa.html" class="boton-tresvalles">
+		<li> Empresa Star Studio</li>
+    </a>
+ </h2>
+  </div>
+	
+     
+	
+	
+  <video controls>
+            <source src= "video minecraft.m4v" type="video/mp4">
+          
+        </video>
+<audio autoplay="autoplay" >
+          <source src=  "girls just wanna have some.mp3" type="audio/mpeg">
+        </audio>
+  
+   
+
+
+
+<footer>
+    <p>© 2026 Mi Página Web | Creado por el estudiante Gabriel Cruz Joachin</p>
+</footer>
+
+</div>
+
+</body>
+	
+</html>
